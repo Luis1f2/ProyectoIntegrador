@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
-  All rights reserved. Use is subject to license terms.
 
-  This file is available and licensed under the following license:
-
-  Redistribution and use in source and binary forms, with or without
-  modification, are permitted provided that the following conditions
-  are met:
-
-  - Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
-  - Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in
-    the documentation and/or other materials provided with the distribution.
-  - Neither the name of Oracle Corporation nor the names of its
-    contributors may be used to endorse or promote products derived
-    from this software without specific prior written permission.
-
-  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
--->
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
@@ -38,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.tripadvisor.controllers.AnimalController">
    <children>
       <ImageView fitHeight="325.0" fitWidth="601.0" layoutX="1.0" layoutY="-60.0">
          <image>
@@ -46,11 +16,11 @@
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="305.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" width="601.0" />
-      <Button id="BtnGuajolote" layoutX="243.0" layoutY="102.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="116.0" />
-      <Button id="BtnVaca" layoutX="88.0" layoutY="102.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="116.0" />
-      <Button id="BtnBorrego" layoutX="400.0" layoutY="102.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="116.0" />
-      <Button id="BtnPollo" layoutX="155.0" layoutY="242.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="116.0" />
-      <Button id="BtnCerdo" layoutX="334.0" layoutY="242.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="116.0" />
+      <Button id="BtnGuajolote" fx:id="BtNGuajolote" layoutX="243.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#BtNGuajoloteOnMouseClicked" prefHeight="79.0" prefWidth="116.0" />
+      <Button id="BtnVaca" fx:id="BtNGanado" layoutX="88.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#BtNGanadoOnMouseCliced" prefHeight="79.0" prefWidth="116.0" />
+      <Button id="BtnBorrego" fx:id="BtNBorrego" layoutX="400.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#BtNBorregoOnMouseCliked" prefHeight="79.0" prefWidth="116.0" />
+      <Button id="BtnPollo" fx:id="BtNChiken" layoutX="155.0" layoutY="242.0" mnemonicParsing="false" onMouseClicked="#BtNChikenOnMouseClicked" prefHeight="79.0" prefWidth="116.0" />
+      <Button id="BtnCerdo" fx:id="BtNPorqui" layoutX="334.0" layoutY="242.0" mnemonicParsing="false" onMouseClicked="#BtNPorquiOnMouseClicked" prefHeight="79.0" prefWidth="116.0" />
       <ImageView fitHeight="79.0" fitWidth="116.0" layoutX="88.0" layoutY="103.0">
          <image>
             <Image url="@assets/img/frisona-1280x720.jpg" />

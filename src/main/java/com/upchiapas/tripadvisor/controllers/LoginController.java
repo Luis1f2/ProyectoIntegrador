@@ -27,7 +27,7 @@ public class LoginController {
     void btnIniciarSesionOnMouseClicked(MouseEvent event) {
         ValidateUser user = new ValidateUser();
         if (user.autenticarUser(txtUsername.getText(), txtPassword.getText())){
-            HelloApplication.setFXML("root-view", "Home-TripAdvisor");
+            HelloApplication.setFXML("Menu", "Menu-TripAdvisor");
 
             /*Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setHeaderText(null);
