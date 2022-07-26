@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="632.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.tripadvisor.controllers.Vacunas03Controller">
+   <children>
+      <Text layoutX="39.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AE-POXINEVACUNA A VIRUS ACTIVO" wrappingWidth="230.791015625">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="132.0" fitWidth="126.0" layoutX="39.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/av-ae-poxine-ecomm.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="39.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dosis:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Punciones con las agujas a través de la membrana del ala, evitando tocar los vasos sanguíneos, hueso y músculo del ala." wrappingWidth="316.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="458.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXCENEL®">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="126.0" fitWidth="126.0" layoutX="458.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/av-excenel-ecomm.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="458.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dosis:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="458.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Aves de un día de edad: Administrar por inyección vía subcutánea en la región del cuello en pollitos de un día de edad una dosis de 0.08 a 0.20 mg de Ceftiofur por pollito. 1 ml de la solución reconstituida de 50 mg/ml tratará aproximadamente de 250 a 625 pollitos de un día de edad." wrappingWidth="374.5">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AUROFAC® 200">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="126.0" fitWidth="126.0" layoutX="39.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/av-aurofac-200-ecomm.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="39.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" text="considerando el análisis de los resultados emitidos por un laboratorio de diagnóstico y siempre siguiendo estrictamente las indicaciones delproducto. No administrar este producto sin haber considerado lo antesdescrito, ya que su uso no está indicado para la prevención de enfermedades." wrappingWidth="328.734375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dosis:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="455.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CYGRO®">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="126.0" fitWidth="126.0" layoutX="455.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/av-cygro-ecomm.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="455.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dosis:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="455.0" layoutY="564.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pollo de engorda: Mezclar bien 5 g de maduramicina/tonelada de alimento, lo que equivale a 500 g de Cygro® en una tonelada de alimento." wrappingWidth="348.021484375">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

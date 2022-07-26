@@ -1,17 +1,11 @@
 package com.upchiapas.tripadvisor.controllers;
 
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
-public class AnimalController {
 
-    @FXML
-    private ResourceBundle resources;
+public class VeterinariaController {
 
-    @FXML
-    private URL location;
     @FXML
     private Button BtNBorrego;
 
@@ -50,9 +44,6 @@ public class AnimalController {
     @FXML
     void BtNPorquiOnMouseClicked(MouseEvent event) {
 
-    }
-    @FXML
-    void initialize() {
     }
 
 }

@@ -18,14 +18,14 @@
             <Image url="@assets/img/3453178.png" />
          </image>
       </ImageView>
-      <Button fx:id="BtNAnimales" layoutX="66.0" layoutY="168.0" mnemonicParsing="false" onMouseClicked="#BtNAnimalesOnMouseClicked" prefHeight="63.0" prefWidth="73.0" style="-fx-background-color: #0b1de2;" />
+      <Button fx:id="BtNAnimales" layoutX="65.0" layoutY="167.0" mnemonicParsing="false" onMouseClicked="#BtNAnimalesOnMouseClicked" prefHeight="63.0" prefWidth="73.0" style="-fx-background-color: #0b1de2;" />
       <Button fx:id="BtNTienda" layoutX="459.0" layoutY="167.0" mnemonicParsing="false" onMouseClicked="#BtNTiendaOnMouseClicked" prefHeight="63.0" prefWidth="73.0" style="-fx-background-color: #0b1de2;" />
       <ImageView accessibleRole="BUTTON" fitHeight="63.0" fitWidth="64.0" layoutX="463.0" layoutY="168.0">
          <image>
             <Image url="@assets/img/pngwing.com.png" />
          </image>
       </ImageView>
-      <ImageView accessibleRole="CHECK_BOX" fitHeight="63.0" fitWidth="84.0" layoutX="75.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView accessibleRole="CHECK_BOX" fitHeight="63.0" fitWidth="84.0" layoutX="74.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets/img/kisspng-dog-veterinarian-computer-icons-veterinary-medicin-foot-print-5b160367e8c6f4.6029050415281693199535.png" />
          </image>

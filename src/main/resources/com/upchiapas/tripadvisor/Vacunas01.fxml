@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="562.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.tripadvisor.controllers.Vacunas01Controller">
+   <children>
+      <ImageView fitHeight="135.0" fitWidth="133.0" layoutX="37.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/Bactrex-100-ML.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="37.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vacuna BACTREX®">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="37.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bovinos: Vía subcutánea 3 ml por cada 50 kg de peso.">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="37.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Ovino y caprinos: 3 ml por cada 50 kg de peso">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="37.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dosis:" />
+      <ImageView fitHeight="133.0" fitWidth="140.0" layoutX="389.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/fluvicina.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="389.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vacuna Fluvicina®">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="371.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dosis:" />
+      <Text layoutX="371.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrar 1.2 ml por cada 20 kg de peso corporal cada 24 horas ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="371.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="la duración del tratamiento es a criterio del Médico veterinario">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="371.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" No administrar más de 10 ml por sitio de aplicación.">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="33.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vacuna Fluvet®">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="24.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ovinos y caprinos: 1.3-2.2 ml por cada 10 kg de peso">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="133.0" fitWidth="91.0" layoutX="50.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/D_NQ_NP_771843-MLM48395977258_112021-O.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="27.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Antibiótico de amplio espectro para la prevención">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="27.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="y tratamiento de lasenfermedades de bovinos.">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="329.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TERRAMICINA® ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="329.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POLVO SOLUBLE FÓRMULA ANIMAL ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="133.0" fitWidth="207.0" layoutX="329.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/terramcina-oral-050050-antibiotico_m.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="329.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Administrar 20 mg por cada kg de peso corporal diariamente hasta por 14 días.">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="329.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preparar una solución fresca diariamente y usarla como única fuente de oxitetaciclina.">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="329.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No administrar por más de 14 días consecutivos.">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

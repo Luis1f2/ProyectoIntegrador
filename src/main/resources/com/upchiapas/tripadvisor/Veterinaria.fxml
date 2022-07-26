@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.tripadvisor.controllers.AnimalController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.tripadvisor.controllers.VeterinariaController">
    <children>
       <ImageView fitHeight="325.0" fitWidth="601.0" layoutX="1.0" layoutY="-60.0">
          <image>
@@ -16,32 +14,26 @@
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="305.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" width="601.0" />
-      <Button id="BtnGuajolote" fx:id="BtNGuajolote" layoutX="243.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#BtNGuajoloteOnMouseClicked" prefHeight="79.0" prefWidth="116.0" />
       <Button id="BtnVaca" fx:id="BtNGanado" layoutX="88.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#BtNGanadoOnMouseCliced" prefHeight="79.0" prefWidth="116.0" />
-      <Button id="BtnBorrego" fx:id="BtNBorrego" layoutX="400.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#BtNBorregoOnMouseCliked" prefHeight="79.0" prefWidth="116.0" />
-      <Button id="BtnPollo" fx:id="BtNChiken" layoutX="155.0" layoutY="242.0" mnemonicParsing="false" onMouseClicked="#BtNChikenOnMouseClicked" prefHeight="79.0" prefWidth="116.0" />
-      <Button id="BtnCerdo" fx:id="BtNPorqui" layoutX="334.0" layoutY="242.0" mnemonicParsing="false" onMouseClicked="#BtNPorquiOnMouseClicked" prefHeight="79.0" prefWidth="116.0" />
+      <Button id="BtnBorrego" fx:id="BtNBorrego" layoutX="334.0" layoutY="103.0" mnemonicParsing="false" onMouseClicked="#BtNBorregoOnMouseCliked" prefHeight="79.0" prefWidth="116.0" />
+      <Button id="BtnPollo" fx:id="BtNChiken" layoutX="88.0" layoutY="217.0" mnemonicParsing="false" onMouseClicked="#BtNChikenOnMouseClicked" prefHeight="79.0" prefWidth="116.0" />
+      <Button id="BtnCerdo" fx:id="BtNPorqui" layoutX="334.0" layoutY="217.0" mnemonicParsing="false" onMouseClicked="#BtNPorquiOnMouseClicked" prefHeight="79.0" prefWidth="116.0" />
       <ImageView fitHeight="79.0" fitWidth="116.0" layoutX="88.0" layoutY="103.0">
          <image>
             <Image url="@assets/img/frisona-1280x720.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="79.0" fitWidth="116.0" layoutX="243.0" layoutY="103.0">
-         <image>
-            <Image url="@assets/img/cd0c9010-f1fb-11eb-bfdf-d8c78a9e903a.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="79.0" fitWidth="116.0" layoutX="400.0" layoutY="103.0">
+      <ImageView fitHeight="79.0" fitWidth="116.0" layoutX="334.0" layoutY="103.0">
          <image>
             <Image url="@assets/img/sonarconborregos.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="79.0" fitWidth="116.0" layoutX="334.0" layoutY="242.0">
+      <ImageView fitHeight="79.0" fitWidth="116.0" layoutX="334.0" layoutY="217.0">
          <image>
             <Image url="@assets/img/P27-11697.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="79.0" fitWidth="116.0" layoutX="155.0" layoutY="242.0">
+      <ImageView fitHeight="79.0" fitWidth="116.0" layoutX="88.0" layoutY="217.0">
          <image>
             <Image url="@assets/img/www.cocinayvino.com-varios-tipos-de-pollo-y-sus-diferencias-cocinayvino-criapollos-poractualidadavipecuaria-1200x900.jpg" />
          </image>
