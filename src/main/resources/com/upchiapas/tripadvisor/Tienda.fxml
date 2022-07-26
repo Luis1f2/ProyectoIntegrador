@@ -32,41 +32,46 @@
   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.tripadvisor.controllers.TiendaController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.tripadvisor.controllers.TiendaController">
    <children>
       <ImageView fitHeight="173.0" fitWidth="601.0" layoutY="-16.0">
          <image>
             <Image url="@assets/img/istockphoto-1146696470-2048x2048.jpg" />
          </image>
       </ImageView>
-      <Button id="BtnSandia" layoutX="34.0" layoutY="181.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="83.0" />
-      <ImageView fitHeight="69.0" fitWidth="83.0" layoutX="34.0" layoutY="181.0">
+      <Button id="BtnSandia" fx:id="BtNAtras" layoutX="10.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#BtNAtrasOnMouseClicked" opacity="0.56" prefHeight="29.0" prefWidth="66.0" text="Atras">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <ImageView fitHeight="56.0" fitWidth="66.0" layoutX="25.0" layoutY="191.0">
          <image>
             <Image url="@assets/img/producto-393-5f0779b21fc53-424918e7edb72b3d6df69bca35675077.jpg" />
          </image>
       </ImageView>
-      <Button id="BtnMaiz" layoutX="188.0" layoutY="181.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="83.0" />
-      <ImageView fitHeight="69.0" fitWidth="83.0" layoutX="189.0" layoutY="181.0">
+      <Button id="BtnMaiz" fx:id="BtNMaiz" layoutX="188.0" layoutY="181.0" mnemonicParsing="false" onMouseClicked="#BtNMaizOnMouseClicked" prefHeight="69.0" prefWidth="83.0" />
+      <ImageView fitHeight="63.0" fitWidth="76.0" layoutX="189.0" layoutY="187.0">
          <image>
             <Image url="@assets/img/file_20201013100633.jpg" />
          </image>
       </ImageView>
       <Text layoutX="34.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEMILLAS" wrappingWidth="95.0" />
-      <Button id="BtnBerengena" layoutX="331.0" layoutY="181.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="83.0" />
-      <ImageView fitHeight="69.0" fitWidth="95.0" layoutX="331.0" layoutY="181.0">
+      <Button id="BtnBerengena" fx:id="BtNBerengena" layoutX="331.0" layoutY="181.0" mnemonicParsing="false" onMouseClicked="#BtNBerengenaOnMouseClicked" prefHeight="69.0" prefWidth="83.0" />
+      <ImageView fitHeight="63.0" fitWidth="83.0" layoutX="331.0" layoutY="187.0">
          <image>
             <Image url="@assets/img/semillas-berenjena.jpg" />
          </image>
       </ImageView>
       <Text layoutX="34.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sandia" wrappingWidth="95.0" />
       <Text layoutX="188.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maiz" wrappingWidth="95.0" />
-      <Button id="BtnPepinillo" layoutX="465.0" layoutY="181.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="83.0" />
-      <ImageView fitHeight="69.0" fitWidth="83.0" layoutX="465.0" layoutY="181.0">
+      <Button id="BtnPepinillo" fx:id="BtNPepiinillo" layoutX="465.0" layoutY="181.0" mnemonicParsing="false" onMouseClicked="#BtNPepinilloOnMouseClicked" prefHeight="69.0" prefWidth="83.0" />
+      <ImageView fitHeight="63.0" fitWidth="76.0" layoutX="469.0" layoutY="184.0">
          <image>
             <Image url="@assets/img/descarga (4).jpg" />
          </image>
@@ -74,26 +79,26 @@
       <Text layoutX="331.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Berengena" wrappingWidth="95.0" />
       <Text layoutX="465.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pepinillo" wrappingWidth="95.0" />
       <Text layoutX="34.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HERRAMIENTAS" wrappingWidth="95.0" />
-      <Button id="BtnTrinche" layoutX="34.0" layoutY="305.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="83.0" />
-      <Button id="BtnAzadon" layoutX="188.0" layoutY="305.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="83.0" />
-      <ImageView fitHeight="69.0" fitWidth="83.0" layoutX="188.0" layoutY="305.0">
+      <Button id="BtnTrinche" fx:id="BtNTrinche" layoutX="34.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#BtNTrincheOnMouseClicked" prefHeight="69.0" prefWidth="83.0" />
+      <Button id="BtnAzadon" fx:id="BtNAzadon" layoutX="188.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#BtNAzadonOnMouseCliked" prefHeight="69.0" prefWidth="83.0" />
+      <ImageView fitHeight="56.0" fitWidth="83.0" layoutX="188.0" layoutY="315.0">
          <image>
             <Image url="@assets/img/10615_1.jpg" />
          </image>
       </ImageView>
-      <Button id="BtnPala" layoutX="331.0" layoutY="305.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="83.0" />
-      <ImageView fitHeight="69.0" fitWidth="83.0" layoutX="331.0" layoutY="305.0">
+      <Button id="BtnPala" fx:id="BtNPala" layoutX="331.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#BtNPalaOnMouseClicked" prefHeight="69.0" prefWidth="83.0" />
+      <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="335.0" layoutY="305.0">
          <image>
             <Image url="@assets/img/pala-con-reborde-y-mango-de-madera-leborgne_ES_500_0007047.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="69.0" fitWidth="83.0" layoutX="34.0" layoutY="305.0">
+      <ImageView fitHeight="63.0" fitWidth="83.0" layoutX="34.0" layoutY="311.0">
          <image>
             <Image url="@assets/img/bieldos.jpg" />
          </image>
       </ImageView>
-      <Button id="BtnpalayRastrillo" layoutX="465.0" layoutY="305.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="83.0" />
-      <ImageView fitHeight="69.0" fitWidth="83.0" layoutX="465.0" layoutY="305.0">
+      <Button id="BtnpalayRastrillo" fx:id="BtNPalaras" layoutX="465.0" layoutY="305.0" mnemonicParsing="false" onMouseClicked="#BtNPalarasOnMouseClicked" prefHeight="69.0" prefWidth="83.0" />
+      <ImageView fitHeight="63.0" fitWidth="83.0" layoutX="465.0" layoutY="311.0">
          <image>
             <Image url="@assets/img/images.jpg" />
          </image>
@@ -102,5 +107,6 @@
       <Text layoutX="325.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pala" wrappingWidth="95.0" />
       <Text layoutX="459.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pala y rastrillo" wrappingWidth="95.0" />
       <Text layoutX="182.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Azadon" wrappingWidth="95.0" />
+      <Button fx:id="BtNSandia" layoutX="20.0" layoutY="193.0" mnemonicParsing="false" onMouseClicked="#BtNSandiaOnMouseClicked" opacity="0.09" prefHeight="45.0" prefWidth="76.0" />
    </children>
 </AnchorPane>

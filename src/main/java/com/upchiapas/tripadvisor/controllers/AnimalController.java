@@ -2,6 +2,8 @@ package com.upchiapas.tripadvisor.controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import com.upchiapas.tripadvisor.HelloApplication;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
@@ -28,6 +30,8 @@ public class AnimalController {
     private Button BtNPorqui;
 
     @FXML
+    private Button BtNAtras;
+    @FXML
     void BtNBorregoOnMouseCliked(MouseEvent event) {
 
     }
@@ -50,6 +54,10 @@ public class AnimalController {
     @FXML
     void BtNPorquiOnMouseClicked(MouseEvent event) {
 
+    }
+    @FXML
+    void BtNAtrasOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("Menu", "Menu-TripAdvisor");
     }
     @FXML
     void initialize() {
