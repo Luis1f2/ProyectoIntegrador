@@ -11,7 +11,7 @@ public class ValidateUser {
 
     public ValidateUser(){
         users.add(new User("Isaac Estrada", "isaacestrada", "221257"));
-        users.add(new User("Luis Fernando", "Ferchito", "asdfg"));
+        users.add(new User("Luis Fernando", "Fernando", "asdfg"));
         users.add(new User("Layka Pereyra", "Laykaps", "amoamimama"));
         users.add(new User("Esmeralda Sanchez", "Esmeraldaxd", "monsexdxd"));
 

@@ -32,13 +32,14 @@
   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.tripadvisor.controllers.ConsejoController">
    <children>
       <ImageView fitHeight="282.0" fitWidth="601.0" layoutY="-101.0">
          <image>
@@ -52,5 +53,37 @@
             <Font size="34.0" />
          </font>
       </Text>
+      <Button fx:id="BtNMaiz" layoutX="14.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#BtNMaizOnMouseClicked" prefHeight="25.0" prefWidth="138.0" text="Cuidado del Maiz">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="BtNCalabaza" layoutX="174.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#BtNCalabazaOnMouseCliked" text="Cuidado de La Calabaza">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="BtNSuelo" layoutX="364.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#BtNSueloOnMouseClicked" prefHeight="29.0" prefWidth="153.0" text="Cuidado del suelo">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="BtNSandia" layoutX="14.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#BtNSandiaOnMouseClicked" text="Cuidado de la Sandia">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="BtNTomate" layoutX="182.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#BtNTomateOnMouseClicked" prefHeight="25.0" prefWidth="167.0" text="Cuidados del Tomate">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="BtNSorgo" layoutX="364.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#BtNSorgoOnMouseCliked" text=" Cuidados del Sorgo">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+
+      <Button fx:id="BtNAtras" layoutX="4.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#BtNAtrasOnMuoseCliked" opacity="0.69" text="Regresar"/>
    </children>
 </AnchorPane>

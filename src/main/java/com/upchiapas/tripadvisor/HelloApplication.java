@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Slider;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -15,7 +16,8 @@ public class HelloApplication extends Application {
     private Stage cargar;
     private Stage prol;
     private Stage frel;
-    private Stage troll;
+    private Stage troll,maiz,sandia,sorgo,calabaza,tomate,suelo;
+
     @Override
     public void start(Stage stage) throws IOException {
         this.stage = stage;
@@ -92,6 +94,68 @@ public void prolll(Stage prol)throws IOException{
     prol.setScene(scene);
     prol.centerOnScreen();
     prol.setResizable(false);
+    stage.show();
+
+}
+
+public void Maiz1(Stage maiz) throws IOException {
+        this.maiz = maiz;
+    scene = new Scene(loadFXML("Maiz"));
+    maiz.setTitle("Maiz-Tradvisor");
+    maiz.setScene(scene);
+    maiz.centerOnScreen();
+    maiz.setResizable(false);
+    stage.show();
+}
+public void Calabaza1(Stage calabaza) throws IOException{
+        this.calabaza = calabaza;
+    scene = new Scene(loadFXML("Calabazas"));
+    calabaza.setTitle("Calabaza-Tradvisor");
+    calabaza.setScene(scene);
+    calabaza.centerOnScreen();
+    calabaza.setResizable(false);
+    stage.show();
+
+}
+public void Sandia1(Stage sandia)throws IOException{
+        this.sandia = sandia;
+    scene = new Scene(loadFXML("Sandia"));
+    sandia.setTitle("Sandia-Tradvisor");
+    sandia.setScene(scene);
+    sandia.centerOnScreen();
+    sandia.setResizable(false);
+    stage.show();
+
+
+}
+public void Sorgo1(Stage sorgo) throws IOException{
+        this.sorgo = sorgo;
+    scene = new Scene(loadFXML("Sorgo"));
+    sorgo.setTitle("Sorgo-Tradvisor");
+    sorgo.setScene(scene);
+    sorgo.centerOnScreen();
+    sorgo.setResizable(false);
+    stage.show();
+
+
+}
+public void Suelo1(Stage suelo) throws IOException{
+        this.suelo = suelo;
+    scene = new Scene(loadFXML("Suelo"));
+    suelo.setTitle("Suelo-Tradvisor");
+    suelo.setScene(scene);
+    suelo.centerOnScreen();
+    suelo.setResizable(false);
+    stage.show();
+
+}
+public void Tomate1(Stage tomate)throws IOException{
+        this.tomate = tomate;
+    scene = new Scene(loadFXML("Tomates"));
+    tomate.setTitle("Tomates-Tradvisor");
+    tomate.setScene(scene);
+    tomate.centerOnScreen();
+    tomate.setResizable(false);
     stage.show();
 
 }
