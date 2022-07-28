@@ -32,28 +32,27 @@ public class AnimalController {
     @FXML
     private Button BtNAtras;
     @FXML
-    void BtNBorregoOnMouseCliked(MouseEvent event) {
-
+    void BtNBorregoOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("Vacuna01", "Vacuna-TripAdvisor");
     }
-
     @FXML
     void BtNChikenOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("Vacuna03", "Vacuna-TripAdvisor");
     }
 
     @FXML
-    void BtNGanadoOnMouseCliced(MouseEvent event) {
-
+    void BtNGanadoOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("Vacunas02", "Vacuna-TripAdvisor");
     }
 
     @FXML
     void BtNGuajoloteOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("Vacuna03", "Menu-TripAdvisor");
     }
 
     @FXML
     void BtNPorquiOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("Vacuna04", "Vacuna-TripAdvisor");
     }
     @FXML
     void BtNAtrasOnMouseClicked(MouseEvent event) {

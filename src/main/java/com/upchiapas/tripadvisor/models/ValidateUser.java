@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class ValidateUser {
 
-    private ArrayList<User> users = new ArrayList<>();
+    public static ArrayList<User> users = new ArrayList<>();
 
     public ValidateUser(){
         users.add(new User("Isaac Estrada", "isaacestrada", "221257"));

@@ -17,10 +17,17 @@ public class HelloApplication extends Application {
     private Stage prol;
     private Stage frel;
     private Stage troll,maiz,sandia,sorgo,calabaza,tomate,suelo;
+    private Stage vacuna1,vacuna2,vacuna3,vacuna4;
+
+
 
     @Override
     public void start(Stage stage) throws IOException {
+
+
         this.stage = stage;
+
+
         scene = new Scene(loadFXML("Login-view"));
         stage.setTitle("Login - Tripadvisor");
         stage.setScene(scene);
@@ -157,8 +164,44 @@ public void Tomate1(Stage tomate)throws IOException{
     tomate.centerOnScreen();
     tomate.setResizable(false);
     stage.show();
+    }
 
-}
+    public void primeravacuna(Stage vacuna1) throws IOException{
+        this.vacuna1 = vacuna1;
+        scene = new Scene(loadFXML("Vacunas01"));
+        vacuna1.setTitle("Vacuna-Tradvisor");
+        vacuna1.setScene(scene);
+        vacuna1.centerOnScreen();
+        vacuna1.setResizable(false);
+        stage.show();
+    }
+    public void segundavacuna(Stage vacuna2) throws IOException{
+        this.vacuna2 = vacuna2;
+        scene = new Scene(loadFXML("Vacunas02"));
+        vacuna2.setTitle("Vacuna-Tradvisor");
+        vacuna2.setScene(scene);
+        vacuna2.centerOnScreen();
+        vacuna2.setResizable(false);
+        stage.show();
+    }
+    public void terceravacuna(Stage vacuna3) throws IOException{
+        this.vacuna3 = vacuna3;
+        scene = new Scene(loadFXML("Vacunas03"));
+        vacuna3.setTitle("Vacuna-Tradvisor");
+        vacuna3.setScene(scene);
+        vacuna3.centerOnScreen();
+        vacuna3.setResizable(false);
+        stage.show();
+    }
+    public void cuartavacuna(Stage vacuna4) throws IOException{
+        this.vacuna4 = vacuna4;
+        scene = new Scene(loadFXML("Vacunas04"));
+        vacuna4.setTitle("Vacuna-Tradvisor");
+        vacuna4.setScene(scene);
+        vacuna4.centerOnScreen();
+        vacuna4.setResizable(false);
+        stage.show();
+    }
     public static void main(String[] args) {
         launch();
     }

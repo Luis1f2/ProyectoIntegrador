@@ -1,11 +1,13 @@
 package com.upchiapas.tripadvisor.models;
 
-public class User {
+public class User extends Registrar {
+
             private String nombre;
             private String username;
             private String password;
 
     public User(String nombre, String username, String password) {
+        super(nombre,username,password);
         this.nombre = nombre;
         this.username = username;
         this.password = password;
@@ -35,3 +37,5 @@ public class User {
         this.password = password;
     }
 }
+
+
